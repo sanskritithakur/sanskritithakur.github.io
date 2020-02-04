@@ -154,7 +154,7 @@ b{
         align-items: center;
     }
     #textalign{
-        transform: scale(0.8);
+        transform: scale(0.6);
     }
     #bottom p{
         margin-bottom: 40px;
@@ -468,7 +468,7 @@ overflow: visible;
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
     transition-duration: 0.5s;
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 #morework:hover{
     background-color: transparent;
@@ -522,12 +522,12 @@ overflow: visible;
 @media only screen and (max-width: 600px){
     #mini{
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 3px;
         text-transform: uppercase;
-        color: rgba(0, 0, 0, 0.774);
+        color: rgba(0, 0, 0, 0.376);
         
     }
 }
@@ -568,6 +568,7 @@ overflow: visible;
 
 }
 
+
 @media only screen and (max-width: 600px){
     #part4{
         display: flex;
@@ -589,7 +590,7 @@ overflow: visible;
 }
 
 #bookdis p{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 35px;
