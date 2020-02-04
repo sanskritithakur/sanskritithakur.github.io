@@ -12,7 +12,7 @@ menubar.addEventListener('click',function (value) {
 	//sidenav.style.display="initial";
 	overlay.style.display="initial";
 overlay.style.background="rgba(0, 0, 0, 0.39)";
-	sidenav.style.width='60%';
+	sidenav.style.width='100%';
 	
 });
 

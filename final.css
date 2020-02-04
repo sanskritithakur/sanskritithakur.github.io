@@ -27,6 +27,7 @@ html,body{
 }
 #typing{
     color: rgb(255, 217, 0);
+    z-index: 7;
 }
 #bottom{
     width: 100%;
@@ -84,25 +85,42 @@ b{
 /*-----------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-
+    #part1{
+        width: 100%;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
     #cross{
         display: initial;
         cursor: pointer;
+        position: absolute;
+        top: 40px;
+        right: 30px;
         
     }
     .links a{
         display: none;
     }
     nav{
-     padding: 10px 40px;
+      
+     padding: 0px 40px;
+     padding-top: 0px;
        color: rgba(131, 116, 32, 0.24);
-        height: 30px;
+        height: 20px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        
+        margin-left: 0px;
      
     }
     b{
-        transform: scale(0.8);
+        transform: scale(0.9);
+        position: absolute;
+        top: 37px;
+        left: 30px;
     }
 }
 /*-----------------------------------------------------------------------*/
