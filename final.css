@@ -65,6 +65,7 @@ nav{
 .links a:hover{
    color: black;
    border-bottom: 2px solid rgb(255, 217, 0);
+    z-index: 999;
 }
 #cross{
     display: none;
